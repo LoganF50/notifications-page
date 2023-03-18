@@ -51,6 +51,12 @@
   --font-weight-extrabold: 800;
   /* --font-weight-black: 900; */
 
+  /* media breakpoints (based on mobile first design) */
+  --media-breakpoint-tablets-min: 481px;
+  --media-breakpoint-small-screen-min: 769px;
+  --media-breakpoint-desktop-screen-min: 1025px;
+  --media-breakpoint-large-screen-min: 1201px;
+
   /* spacing */
   --spacing-2xs: 0.125rem;
   --spacing-xs: 0.25rem;
@@ -243,4 +249,22 @@ body {
   text-decoration: none;
   color: var(--c-blue);
   font-weight: var(--font-weight-extrabold);
+}
+
+@media screen and (min-width: 481px) {
+  body {
+    justify-content: center;
+  }
+
+  .page {
+    max-width: 670px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05);
+    border-radius: var(--border-radius-xl);
+    gap: var(--spacing-2xl);
+    padding: var(--spacing-2xl) var(--spacing-2xl) 0;
+  }
+
+  .header__badge {
+    font-size: var(--font-size-sm);
+  }
 }
