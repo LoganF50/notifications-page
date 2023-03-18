@@ -150,12 +150,12 @@ body {
   padding: var(--spacing-lg);
 }
 
-.notification__unread {
+.notification--unread {
   background-color: var(--c-very-light-grayish-blue);
 }
 
 /* find grandchild with class and place after  */
-.notification__unread > .notification__content > .notification__text::after {
+.notification--unread > .notification__content > .notification__text::after {
   content: "";
   display: inline-block;
   background-color: var(--c-red);
