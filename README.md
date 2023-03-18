@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution URL]()
+- Solution URL: [Frontend Mentor Solution URL](https://www.frontendmentor.io/solutions/responsive-notifications-page-using-flexbox-se6xDor5MS)
 - Live Site URL: [Github Pages URL](https://loganf50.github.io/notifications-page/)
 
 ## My process
